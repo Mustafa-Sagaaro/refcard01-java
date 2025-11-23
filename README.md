@@ -1,4 +1,4 @@
-
+ 
 # App Ref. Card 01
 Standalone Spring Boot Application
 
