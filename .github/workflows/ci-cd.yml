@@ -44,8 +44,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./m347-ref-card-01
-          file: ./m347-ref-card-01/Dockerfile
+          context: .          
+          file: ./Dockerfile 
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/refcard01:latest
